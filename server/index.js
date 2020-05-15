@@ -1,10 +1,12 @@
 const express = require("express");
 const productRouter = require("./routes/products");
 const path = require("path");
+const cors = require("cors");
 const connectDB = require("./database/db");
 
 const app = express();
 
+app.use(cors());
 //Middleware to parse req body
 app.use(express.json());
 
