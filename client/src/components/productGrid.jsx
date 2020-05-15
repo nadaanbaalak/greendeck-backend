@@ -1,6 +1,5 @@
 import React from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
-import { EuiFlexGroup } from "@elastic/eui";
 import Spinner from "./spinner";
 import Card from "./product";
 
